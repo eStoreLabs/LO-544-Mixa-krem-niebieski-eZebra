@@ -543,6 +543,7 @@ body {
     justify-content: center;
     width: 40%;
     gap: 32px;
+    padding-top: 125px;
   }
   #es-rc #es-rc-content .es-cross__wrapper {
     padding: 0 16px;
