@@ -545,7 +545,7 @@ body {
     flex-basis: 50%;
     display: grid;
     align-content: flex-start;
-    max-width: 425px;
+    max-width: 420px;
   }
   #es-rc #es-rc-content .es-formula__single:hover {
     box-shadow: 1px 1px 15px 3px rgba(0, 0, 1, 0.1);
