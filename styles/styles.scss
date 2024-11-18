@@ -365,6 +365,10 @@ body {
             display: block;
         }
 
+        .es-cross__odkryj {
+            margin: 0 auto 8px auto;
+        }
+
         &__title--desktop {
             display: none;
         }
@@ -466,6 +470,12 @@ body {
         }
     }
 
+    @media (max-width: 719px) {
+        .es-kv__packshot img {
+            max-height: 300px;
+        }
+    }
+
     @media (min-width: 576px) {
         .es-features {
             align-items: flex-start;
@@ -554,39 +564,6 @@ body {
         .es-cross__desc {
             height: 4em;
         }
-
-        .es-products__title--mobile {
-            display: none;
-        }
-
-        .es-products__title--desktop {
-            display: block;
-        }
-
-        .es-products {
-            display: flex;
-        }
-
-        .es-products__bg {
-            height: 100%;
-        }
-
-        .es-products__bg img {
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .es-products .es-header {
-            padding-inline: unset;
-        }
-
-        .es-products__wrapper {
-            padding-right: 0;
-        }
-
-        .es-products__single {
-            border-radius: 0 0 0 $padding-XS;
-        }
     }
 
     @media (min-width: 720px) {
@@ -615,7 +592,7 @@ body {
 
         .es-kv__right img {
             height: 100%;
-            object-position: right;
+            object-position: center;
         }
 
         .es-kv__logo {
@@ -625,7 +602,7 @@ body {
         }
 
         .es-kv__title {
-            padding: $padding-S $padding-L;
+            padding: $padding-S $padding-L $padding-S $padding-XL;
         }
 
         .es-kv__textWrapper {
@@ -705,12 +682,38 @@ body {
             height: 3em;
         }
 
+        .es-products {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .es-products__bg {
+            height: 100%;
+        }
+
+        .es-products__bg img {
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .es-products .es-header {
+            padding-inline: unset;
+        }
+
+        .es-products__single {
+            border-radius: 0 $padding-XS;
+            font-size: 18px;
+        }
+
         .es-products__left {
-            width: 54%;
+            width: 46%;
         }
 
         .es-products__right {
-            width: 46%;
+            width: 54%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
 
         .es-ekspert {
