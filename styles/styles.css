@@ -279,6 +279,8 @@ body {
 }
 #es-rc #es-rc-content .es-cross__img--3 {
   max-height: 240px;
+  max-width: 110px !important;
+  height: auto !important;
 }
 #es-rc #es-rc-content .es-cross__name {
   background-color: #3FB3EE;
